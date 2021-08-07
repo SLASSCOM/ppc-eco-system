@@ -1,0 +1,31 @@
+---
+---
+
+@import "jekyll-theme-slate";
+
+#header_wrap {
+	background: #1c0f2f
+}
+
+#header_wrap .inner {
+	padding: 10px;
+}
+
+#main_content {
+	padding-top: 20px;
+}
+
+.inner {
+	position:relative;
+	max-width:960px;
+	padding:20px 10px;
+	margin:0 auto
+}
+
+#data-table th {
+	background-color: #197300
+}
+
+td {
+	border: 1px solid #cecece;
+}
