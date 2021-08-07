@@ -17,7 +17,7 @@
 
 .inner {
 	position:relative;
-	max-width:960px;
+	max-width:1200px;
 	padding:20px 10px;
 	margin:0 auto
 }
@@ -48,4 +48,14 @@ div.dataTables_wrapper div.dataTables_filter input {
     {
         display: none;
     }
+}
+
+tr th:nth-child(1),tr td:nth-child(1)
+{
+    width: 150px;
+}
+
+tr th:nth-child(4),tr td:nth-child(4)
+{
+    width: 250px;
 }
