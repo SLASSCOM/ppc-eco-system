@@ -6,12 +6,12 @@ $.getJSON("https://spreadsheets.google.com/feeds/list/1ZjfB3uedM7CJVWtPg9h-1G6fW
   for (i = 0; i < sheetData.length; i++) {
 
     var company = data.feed.entry[i]['gsx$company']['$t'];
+    var productName = data.feed.entry[i]['gsx$productname']['$t'];
+    var desc = data.feed.entry[i]['gsx$description']['$t'];
     var bass = data.feed.entry[i]['gsx$businessactivityservicesector']['$t'];
-    var offerings = data.feed.entry[i]['gsx$offerings']['$t'];
-    var countryList = data.feed.entry[i]['gsx$countriesinwhichtheservicesaredeliveredandorexpecttodeliver']['$t'];
     var website = data.feed.entry[i]['gsx$website']['$t'];
 
-    document.getElementById('tbodyData').innerHTML += ('<tr>'+'<td><a href="' + website + '" TARGET="_blank">' + company + '</a></td>' + '<td>' + bass + '</td>' + '<td>' + offerings + '</td>' + '<td>' + countryList + '</td>' + '</tr>');
+    document.getElementById('tbodyData').innerHTML += ('<tr>'+'<td><a href="' + website + '" TARGET="_blank">' + company + '</a></td>' + '<td>' + productName + '</td>' + '<td>' + desc + '</td>' + '<td>' + bass + '</td>' + '</tr>');
 
   }
 

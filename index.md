@@ -5,9 +5,10 @@
     <thead>
         <tr>
             <th>Company</th>
-            <th>Business Activity/Service Sector</th>
-            <th>Offerings</th>
-            <th>Services Delivered Countries</th>
+            <th>Product Name(s)</th>
+            <th>Description</th>
+            <th>Business Activity / Service Sector</th>
+            <th>Website</th>
         </tr>
     </thead>
     <tbody id="tbodyData">
