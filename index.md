@@ -8,7 +8,6 @@
             <th>Product Name(s)</th>
             <th>Description</th>
             <th>Business Activity / Service Sector</th>
-            <th>Website</th>
         </tr>
     </thead>
     <tbody id="tbodyData">
